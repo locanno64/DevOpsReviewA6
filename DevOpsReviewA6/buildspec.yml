@@ -7,8 +7,8 @@ phases:
 
   build:
     commands:
-      - dotnet restore DevOpsReviewA6.csproj
-      - dotnet publish DevOpsReviewA6.csproj --configuration Release --output ./publish
+      - dotnet restore DevOpsReviewA6/DevOpsReviewA6.csproj
+      - dotnet publish DevOpsReviewA6/DevOpsReviewA6.csproj --configuration Release --output ./publish
 
 artifacts:
   base-directory: publish
