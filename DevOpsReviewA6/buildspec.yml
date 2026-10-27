@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - dotnet --info
+
+  build:
+    commands:
+      - dotnet restore YourProject.csproj
+      - dotnet publish YourProject.csproj --configuration Release --output ./publish
+
+artifacts:
+  base-directory: publish
+  files:
+    - '**/*'
