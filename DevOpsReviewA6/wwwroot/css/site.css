@@ -31,5 +31,82 @@ body {
 }
 
 /*Culver's Colors*/
-/*Blue-#025599*/
+/*Blue-#005696*/
 /*White-#ffffff*/
+
+/*Fonts*/
+/*Normal Text*/
+.league-gothic {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.pageSize {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*Header*/
+.bannerStyle {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #005696;
+    color: #ffffff;
+}
+
+.headertxt{
+    text-align:left;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Column Styling*/
+.columnsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+
+.colStructure {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #005696;
+    color:#ffffff;
+}
+
+/*Column Paragraphs*/
+.cPara {
+    font-family: "League Gothic", sans-serif;
+    font-size: 15px;
+}
+/*Picture Restraints*/
+.picRes {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}

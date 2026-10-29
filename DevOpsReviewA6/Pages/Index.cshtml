@@ -4,6 +4,57 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Culver's'</h1>
+<div class="pageSize">
+    @*Header, includes Culver's logo in a Banner colored by Culver's blue*@
+    <div class="bannerStyle">
+        <div ="headertxt"> 
+            <h1 class="display-4">
+                Why Culver's should come to Stillwater  
+            </h1>
+        </div>
+
+        <div class="logo">
+            <img src="~/photos/culvers logo.jpg" />
+        </div>
+    </div>
+
+    @*Picture of Physical Culver's Store*@
+
+
+    @*Brochure style Advertisement, three columns each blue with white borders*@
+    <div class="columnsContainer">
+        @*1st Column explaining Whats Culver's Is*@
+        <div class="colStructure">
+            <p class="cPara">
+                Culver's is a Fast Food Chain founded in 1984 based in Wisconsin.
+            </p>
+            @*Butterburger with a Concrete Shake*@
+            <img src="~/photos/culvers-bb-w-concrete.jpg" class="picRes" alt="Culver's Butterburger with Concrete Style Shake and Cheese Curds" />
+        
+        </div>
+
+        @*2nd Column Highlighting key menu items*@
+        <div class="colStructure">
+            <p class="cPara">
+                Culver's Menu
+            </p>
+            @*Culver's Menu*@
+            <img src="~/photos/culvers menu.jpg" class="picRes" alt="A variety of Items from Culver's Menu" />
+
+        </div>
+        @*3rd Column Showing Current Stores and explaining why it should expand to Stillwater*@
+        <div class="colStructure">
+            <p class="cPara">
+                Culver's is one of the fastest growing burger chains in the United States,
+                adding a net 56 stores.
+                For comparison, Shake Shack trailed them with a net 50 store openings.
+                However, there is not a Culver's in the state of Oklahoma.
+                All States bordering Oklahoma have a combined 65 Stores,
+                and Stillwater should be one of the first locations in the state to get one
+            </p>
+            @*Map with # of Culver's locations by State*@
+            <img src="~/photos/culvers locations.jpg" class="picRes" alt="Culver's Locations by State" />
+        </div>
+
+    </div>
 </div>
