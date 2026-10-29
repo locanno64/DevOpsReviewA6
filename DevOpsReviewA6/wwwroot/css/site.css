@@ -113,3 +113,47 @@ body {
     display: block;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+
+    /* Header: stack text and logo vertically */
+    .bannerStyle {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 10px 15px;
+        gap: 10px;
+    }
+
+    .headertxt {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 150px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Stack the three columns vertically */
+    .columnsContainer {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    /* Adjust column spacing */
+    .colStructure {
+        padding: 12px;
+    }
+
+    /* Make images fit their columns */
+    .picRes {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Reduce paragraph size slightly */
+    .cPara {
+        font-size: 14px;
+    }
+}
