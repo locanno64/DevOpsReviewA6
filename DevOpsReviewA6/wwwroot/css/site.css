@@ -91,6 +91,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
+    row-gap: 15px;
 }
 
 .colStructure {
@@ -113,6 +114,15 @@ body {
     display: block;
     margin-top: 10px;
 }
+
+.bulletBox {
+    grid-column: 1 / 4;
+    padding: 20px;
+    background-color: #005696;
+    color: #ffffff;
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -156,4 +166,12 @@ body {
     .cPara {
         font-size: 14px;
     }
+
+    .bulletBox {
+        grid-column: 1 / 4;
+        padding: 20px;
+        background-color: #005696;
+        color: #ffffff;
+    }
+
 }
