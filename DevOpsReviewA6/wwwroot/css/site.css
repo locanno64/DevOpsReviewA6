@@ -89,7 +89,7 @@ body {
 /*Column Styling*/
 .columnsContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 15px;
     row-gap: 15px;
 }
@@ -99,7 +99,7 @@ body {
     flex-direction: column;
     padding: 15px;
     background-color: #005696;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 /*Column Paragraphs*/
@@ -116,12 +116,26 @@ body {
 }
 
 .bulletBox {
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
     padding: 20px;
     background-color: #005696;
     color: #ffffff;
 }
 
+.bluetxt {
+    color: #005696;
+}
+.bold {
+    color: #005696;
+    font-weight: bold;
+}
+
+.map {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
 @media (max-width: 768px) {
@@ -161,6 +175,13 @@ body {
         width: 100%;
         height: auto;
     }
+    .map {
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    }
 
     /* Reduce paragraph size slightly */
     .cPara {
@@ -172,6 +193,7 @@ body {
         padding: 20px;
         background-color: #005696;
         color: #ffffff;
+   
     }
 
 }
