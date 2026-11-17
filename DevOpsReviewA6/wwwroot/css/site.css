@@ -75,6 +75,11 @@ body {
     color: #ffffff;
 }
 
+.navbarText {
+    background-color: #005696;
+    color: #ffffff;
+}
+
 .headertxt {
     text-align: left;
 }

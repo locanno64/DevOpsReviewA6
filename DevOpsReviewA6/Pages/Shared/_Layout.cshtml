@@ -10,6 +10,43 @@
     <link rel="stylesheet" href="~/DevOpsReviewA6.styles.css" asp-append-version="true" />
 </head>
 <body>
+    @*Header, includes Culver's logo in a Banner colored by Culver's blue*@
+    <div class="bannerStyle">
+        <div class="headertxt">
+            <h1 class="display-4">
+                Why Culver's should come to Stillwater
+            </h1>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm ">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link navbarText" asp-area="" asp-page="/MarketOp">Marketing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbarText" asp-area="" asp-page="/DemoRetail">Demographics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbarText" asp-area="" asp-page="/Economy">Economics</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="logo">
+            <a asp-area="" asp-page="/Index">
+                <img src="~/photos/culvers logo.jpg" alt="Culver's logo" />
+                
+            </a>
+        </div>
+    </div>
+
 
     <div>
         <main role="main" class="pb-3">
